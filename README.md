@@ -6,11 +6,11 @@
 
 This project was created with HTML, CSS JavaScript, Python, and Node JS to warn people about the danger of the coronavirus. 
 
-## Applied skills :bulb:
+## Applied skills
 
-- Data cleaning/analysis/visualization with Python
-- GET requests and with API's
-- Socket programming
-- Node JS backend
-- NoSQL databases
+ :bulb: Data cleaning/analysis/visualization with Python
+ :bulb: GET requests and with API's
+ :bulb: Socket programming
+ :bulb: Node JS backend
+ :bulb: NoSQL databases
 
