@@ -1,6 +1,6 @@
 # Covid-19-project
 
-<p align='center'><img src='https://i.imgur.com/RHmYJFH.gif'></p>
+<p align='center'><img src='https://i.imgur.com/RHmYJFH.gif' width=100%></p>
 
 > Status: Finished :heavy_check_mark:
 
