@@ -11,7 +11,7 @@ This project was created with HTML, CSS JavaScript, Python, and Node JS to warn 
 ## Applied skills :bulb:
 
 - Data cleaning/analysis/visualization with Python
-- GET requests and with API's
+- GET requests with API's
 - Socket programming
 - Node JS backend
 - NoSQL databases
