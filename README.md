@@ -16,3 +16,17 @@ This project was created with HTML, CSS JavaScript, Python, and Node JS to warn 
 - Node JS backend
 - NoSQL databases
 
+## Depployed project on Heroku :computer:
+
+> https://wash-your-hand.herokuapp.com/
+
+## Related projects :mag:
+
+<p><strong>LGPD</strong></p>
+:computer: <a href='https://matheus-se.github.io/LGPD/'></a>
+
+:octocat: <a href='https://matheus-se.github.io/LGPD/'>LGPD</a>
+
+## Contact :e-mail:
+
+matheushenrriquepeteleco@gmail.com
