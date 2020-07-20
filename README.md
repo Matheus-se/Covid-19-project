@@ -22,10 +22,15 @@ This project was created with HTML, CSS JavaScript, Python, and Node JS to warn 
 
 ## Related projects :mag:
 
-<p><strong>LGPD</strong></p>
-:computer: <a href='https://matheus-se.github.io/LGPD/'></a>
+<h1>LGPD</h1>
+:computer: <a href='https://matheus-se.github.io/LGPD/'>Deployed project in GitHub</a>
 
-:octocat: <a href='https://matheus-se.github.io/LGPD/'>LGPD</a>
+:octocat: <a href='https://matheus-se.github.io/LGPD/'>GitHub page</a>
+
+<h1>HCI - Project</h1>
+:computer: <a href='https://matheus-se.github.io/HCI-BR/'>Deployed project in GitHub</a>
+
+:octocat: <a href='https://github.com/Matheus-se/HCI-BR'>GitHub page</a>
 
 ## Contact :e-mail:
 
