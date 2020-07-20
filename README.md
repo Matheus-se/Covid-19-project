@@ -22,12 +22,12 @@ This project was created with HTML, CSS JavaScript, Python, and Node JS to warn 
 
 ## Related projects :mag:
 
-<h1>LGPD</h1>
+<h3>LGPD</h3>
 :computer: <a href='https://matheus-se.github.io/LGPD/'>Deployed project in GitHub</a>
 
 :octocat: <a href='https://matheus-se.github.io/LGPD/'>GitHub page</a>
 
-<h1>HCI - Project</h1>
+<h3>HCI - Project</h3>
 :computer: <a href='https://matheus-se.github.io/HCI-BR/'>Deployed project in GitHub</a>
 
 :octocat: <a href='https://github.com/Matheus-se/HCI-BR'>GitHub page</a>
