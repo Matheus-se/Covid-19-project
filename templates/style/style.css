@@ -1,0 +1,158 @@
+html, body {
+    margin: 0px;
+    width:  100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.sky {
+    position: absolute;
+    z-index: -1;
+    margin: 0px;
+    transition: opacity 0.5s;
+}
+
+#sky1 {
+    background: linear-gradient(to bottom, #1c1c4e 0%,#505099 100%);
+    opacity: 0;
+}
+
+#sky2 {
+    background: linear-gradient(to bottom, #030311 0%,#1c1c4e 100%);
+}
+
+canvas {
+    opacity: 1;
+    transition: opacity 0.5s;
+    position: absolute;
+}
+
+#starInfo {
+    position: absolute;
+    width: 100%;
+    height: 12vh;
+    background-color: black;
+    top: 100%;
+    transform: translate(0, -100%);
+    opacity: 0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 5vmin;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#infoScreen {
+    background-color: #ffebee;
+    width: 100%;
+    height: 100%;
+    z-index: +2;
+    position: absolute;
+    transition: opacity 1s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Special Elite', cursive;
+    font-size: 5vmin;
+    transition: opacity 1s;
+    text-align: center;
+}
+
+#infoText {
+    transition: opacity 1s;
+    opacity: 0;
+}
+
+#loading {
+    z-index: +99;
+    background-color: #408a93;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#loadingimg {
+    width: 100vmin;
+}
+
+@keyframes fadeOut {
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+.loadingHidden {
+    animation: fadeOut 1s;
+    animation-fill-mode: forwards;
+}
+
+#contador {
+    z-index: 1;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    display: flex;
+    padding: 10px;
+    font-size: 3vmin;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    justify-content: center;
+    align-items: center;
+}
+
+#contador * {
+    padding: 10px;
+}
+
+#audio {
+    width: 7vmin;
+    z-index: 4;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    cursor: pointer;
+    padding: 20px;
+}
+
+#controllers {
+    position: fixed;
+    bottom: 12vh;
+    left: 0px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 5px;
+}
+
+#controllers > * {
+    padding: 5px;
+    background-color: rgba(167, 167, 167, 0.6);
+    border-radius: 10px;
+}
+
+#bottomKeys {
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+#spacebar {
+    position: fixed;
+    bottom: 12vh;
+    right: 0px;
+    margin: 5px;
+    background-color: rgba(167, 167, 167, 0.6);
+    padding: 10px;
+    border-radius: 32px;
+    display: none;
+}

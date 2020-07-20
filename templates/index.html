@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Covid-19</title>
+    </head>
+    <body>
+        <img src="images/muted.png" alt="audiobut" id="audio">
+        <div id="sky2" class="sky"></div>
+        <div id="sky1" class="sky"></div>
+        <canvas id="canvas2"></canvas>
+        <canvas id="canvas"></canvas>
+        <div id="starInfo">
+            <div id="starID"></div>
+        </div>
+        <div id="contador">
+            <p id="numeroStars">0 / 1</p>
+            <img src="images/star.png" alt="estrelas">
+        </div>
+        <div id="infoScreen">
+            <p id="infoText"></p>
+        </div>
+        <div id="loading" class="loading">
+            <img src="images/loading.gif" alt="loading" id="loadingimg">
+        </div>
+        <div id="mobileController"></div>
+            <div id="controllers">
+                <img src="images/up.png" alt="up" id="up">
+                <div id="bottomKeys">
+                    <img src="images/left.png" alt="left" id="left">
+                    <img src="images/down.png" alt="down" id="down">
+                    <img src="images/right.png" alt="right" id="right">
+                </div>
+            </div>
+            <img src="images/space.png" alt="space" id="spacebar">
+        </div>
+        <audio src="images/musica3.mp3" id="music"></audio>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js"></script>
+        <script src="script/index.js"></script>
+    </body>
+</html>
